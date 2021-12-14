@@ -1,0 +1,12 @@
+.cultcatalogue {
+  background-color: white;
+  z-index: 8;
+  margin-left: -400px;
+}
+
+@media (max-width: 768px) {
+  .cultcatalogue {
+    margin-left: 0px;
+    /* margin-top: 25px; */
+  }
+}

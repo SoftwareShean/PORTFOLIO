@@ -1,0 +1,36 @@
+.contact {
+  background-color: rgb(128, 202, 242);
+}
+
+.contact .card-title {
+  color: rgb(255, 30, 52);
+}
+
+.contact .main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    margin-left: 0px;
+    /* margin-top: 25px; */
+  }
+
+  .card-title {
+    align-items: center;
+  }
+
+  .contact .main {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+

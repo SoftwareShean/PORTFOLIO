@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Landing from "./components/Landing/Landing";
 import { Route } from "react-router-dom";
-import Card from "./components/Contact/Card";
+// import Card from "./components/Contact/Card";
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <Route exact path="/">
         <Landing />
       </Route>
-      <Route exact path="/contact">
+      {/* <Route exact path="/contact">
         <Card />
-      </Route>
+      </Route> */}
     </div>
   );
 }
