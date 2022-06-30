@@ -1,0 +1,45 @@
+.photographerCard .cardDescription {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.photographerCard {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-evenly;
+}
+
+.photographerCard p {
+    color: white;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+.imageStack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* position: fixed; */
+}
+
+.image1 {
+    background-image: url(../../../assets/CAMI1.jpeg);
+}
+
+.image2 {
+    background-image: url(../../../assets/LIC1.jpeg);
+}
+
+.image3 {
+    background-image: url(../../../assets/DUEL1.jpeg);
+}

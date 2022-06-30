@@ -1,7 +1,5 @@
 .mission {
   background-image: url(../../../assets/background.png);
-  z-index: 5;
-  margin-left: -400px;
 }
 
 @media (max-width: 768px) {

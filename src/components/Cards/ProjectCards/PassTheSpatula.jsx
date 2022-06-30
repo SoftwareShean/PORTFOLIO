@@ -11,7 +11,7 @@ import SassIcon from '../../../assets/Sass.jsx';
 
 function PassTheSpatula(props) {
   return (
-    <div className="pass-the-spatula card">
+    <div className="pass-the-spatula card fadein">
       <div className="main">
         <div className="overview">
           <p>Pass The Spatula is a youth led culinary program from the <a href="https://www.foodeducationfund.org/who-we-are" target="_blank">Food Education Fund</a> based out of New York City. I created a new website for the launch of their second magazine issue. The platform is built on the React library, hosted and deployed on Firebase, with a custom backend blog component built using DraftJS from Facebook. Shopify's SDK is also integrated, which facilitated sales of the new issue.</p>
@@ -35,7 +35,7 @@ function PassTheSpatula(props) {
               },
             }}
           >
-            <button className="btn">
+            <button>
               <a href="https://passthespatula.com/" target="_blank0" title="View the site" rel="noopener noreferrer"><FaGlobe /></a>
             </button>
           </IconContext.Provider>

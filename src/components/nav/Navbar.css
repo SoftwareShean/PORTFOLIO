@@ -1,0 +1,21 @@
+.nav {
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.nav .icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav h1 {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+}
