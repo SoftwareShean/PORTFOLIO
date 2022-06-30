@@ -1,7 +1,7 @@
 .covidata {
   background-color: rgb(192, 208, 207);
   z-index: 6;
-  margin-left: -400px;
+  /* margin-left: -400px; */
 }
 
 @media (max-width: 768px) {

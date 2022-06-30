@@ -3,7 +3,7 @@ import './Mission.css';
 
 function Mission(props) {
   return (
-    <div className="mission card">
+    <div className="mission card fadein">
       <div className="main">
         <h2>
           I am committed to making a positive impact. At my root, I am a builder and creator.
@@ -13,9 +13,6 @@ function Mission(props) {
         </h2>
       </div>
       <div className="card-title">
-
-        {/* <h1>Mission</h1> */}
-        {/* <img src={Portrait} alt="" /> */}
       </div>
     </div>
   );

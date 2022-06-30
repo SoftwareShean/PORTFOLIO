@@ -9,7 +9,7 @@ import RubyIcon from '../../../assets/ruby.png';
 
 function Cura(props) {
   return (
-    <div className="cura card">
+    <div className="cura card fadein">
       <div className="main">
         <div className="overview">
           <p>CURA is your digital content manager. With a daily timeline, add links with rich data, upload photos, and add notes. Manage each day with CURA and never forget a memory. With API integrations fro the NYT you wont miss any of the latest top stories.</p>

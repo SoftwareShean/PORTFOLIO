@@ -11,7 +11,7 @@ import MongoIcon from '../../../assets/mongodb.png'
 
 function Contact(props) {
   return (
-    <div className="cultcatalogue card">
+    <div className="cultcatalogue card fadein">
       <div className="main">
         <div className="overview">
           <p>Based on a passion project from 2014, CultCatalogue is an API for biographies and works of contemporary global artists. Click the icons below to view the deployed project and its code.</p>

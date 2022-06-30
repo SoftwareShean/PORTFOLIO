@@ -1,26 +1,31 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "../Landing/Landing.css";
-import '../Cards/card.css';
-import Contact from "../Cards/Contact.jsx";
-import PassTheSpatula from "../Cards/ProjectCards/PassTheSpatula.jsx";
-import CultCatalogue from '../Cards/ProjectCards/CultCatalogue.jsx'
-import Cura from '../Cards/ProjectCards/Cura.jsx';
-import Covidata from "../Cards/ProjectCards/Covidata";
-import Mission from "../Cards/ProjectCards/Mission";
+import "../Cards/card.css";
+import "../Animations.css"
+import { Link } from "react-router-dom";
 
+export default function Landing() {
+  const [overlay, setOverlay] = useState(null);
 
-export default class Landing extends Component {
+  const setOverlayComponent = () => {
+    setOverlay("true");
+  };
 
-  render() {
-    return (
-      <div className="stack">
-        <Contact />
-        <PassTheSpatula />
-        <CultCatalogue />
-        <Cura />
-        <Covidata />
-        <Mission />
+  return (
+    <div className="landing fadein">
+      <div className="points">
+        <Link to="/developer">
+          <div className="dev">
+            <h1>DEVELOPER</h1>
+          </div>
+        </Link>
+        <h1>&</h1>
+        <Link to="/photographer">
+          <div className="photo">
+            <h1>PHOTOGRAPHER</h1>
+          </div>
+        </Link>
       </div>
-    );
-  }
+    </div>
+  );
 }

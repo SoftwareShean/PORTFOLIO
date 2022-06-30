@@ -1,12 +1,18 @@
 .cultcatalogue {
   background-color: white;
-  z-index: 8;
-  margin-left: -400px;
+}
+
+.cultcatalogue p { 
+  color: black;
+}
+
+.cultcatalogue .card-title h1 {
+  color: black;
+  font-size: 40px;
 }
 
 @media (max-width: 768px) {
   .cultcatalogue {
     margin-left: 0px;
-    /* margin-top: 25px; */
   }
 }
