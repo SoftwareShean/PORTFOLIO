@@ -1,5 +1,17 @@
 .pass-the-spatula {
   background-color: rgb(255, 175, 4);
+  
+}
+
+.pass-the-spatula h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  color: rgb(255, 175, 4);
+  text-shadow: -6px 6px 15px rgba(0, 0, 0, 0.5), 6px -6px 15px;
+}
+
+.pass-the-spatula p {
+  color: black;
 }
 
 @media (max-width: 768px) { 

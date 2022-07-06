@@ -12,17 +12,19 @@ export default function Landing() {
   };
 
   return (
-    <div className="landing fadein">
+    <div className="landing slideup">
       <div className="points">
         <Link to="/developer">
           <div className="dev">
             <h1>DEVELOPER</h1>
           </div>
         </Link>
+        {/* <div className="amper">
         <h1>&</h1>
+        </div> */}
         <Link to="/photographer">
           <div className="photo">
-            <h1>PHOTOGRAPHER</h1>
+            <h1>& PHOTOGRAPHER</h1>
           </div>
         </Link>
       </div>

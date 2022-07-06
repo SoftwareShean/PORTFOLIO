@@ -14,12 +14,10 @@ function Contact(props) {
     <div className="cultcatalogue card fadein">
       <div className="main">
         <div className="overview">
+        <h1>CULTCATALOGUE</h1>
           <p>Based on a passion project from 2014, CultCatalogue is an API for biographies and works of contemporary global artists. Click the icons below to view the deployed project and its code.</p>
           <div className="projectIcons">
-            <img src={ReactIcon} />
-            <SassIcon />
-            <img src={NodeIcon} />
-            <img src={MongoIcon} />
+            
           </div>
         </div>
         <div className="project-buttons">
@@ -43,9 +41,11 @@ function Contact(props) {
           </IconContext.Provider>
         </div>
       </div>
-      <div className="card-title">
-
-        <h1>CULTCATALOGUE</h1>
+      <div className="card-title projectIcons">
+      <img src={ReactIcon} />
+            <SassIcon />
+            <img src={NodeIcon} />
+            <img src={MongoIcon} />
         <img src={CCIcon} alt="" />
       </div>
     </div>

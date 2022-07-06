@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 export default function Photographer() {
   return (
     <div className="photographerCard">
-      <div className="cardHeader fadein">
+      <div className="cardHeader photo-appear">
         <Link to="/"><h1>PHOTOGRAPHER</h1></Link>
       </div>
       <div className="cardDescription fadein">

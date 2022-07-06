@@ -61,50 +61,50 @@
 
 @keyframes slideup {
   0% {
-    transform: translateX(100%);
+    transform: translateY(100%);
   }
   100% {
-    transform: translateX(0%);
+    transform: translateY(0%);
   }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes slideup {
   0% {
-    transform: translateX(100%);
+    transform: translateY(100%);
   }
   100% {
-    transform: translateX(0%);
+    transform: translateY(0%);
   }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes slideup {
   0% {
-    transform: translateX(100%);
+    transform: translateY(100%);
   }
   100% {
-    transform: translateX(0%);
+    transform: translateY(0%);
   }
 }
 
 /* Internet Explorer */
 @-ms-keyframes slideup {
   0% {
-    transform: translateX(100%);
+    transform: translateY(100%);
   }
   100% {
-    transform: translateX(0%);
+    transform: translateY(0%);
   }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes slideup {
   0% {
-    transform: translateX(100%);
+    transform: translateY(100%);
   }
   100% {
-    transform: translateX(0%);
+    transform: translateY(0%);
   }
 }
 
@@ -160,3 +160,109 @@
     transform: translateX(0%);
   }
 }
+
+.dev-appear {
+  animation: 2s ease-out 0s 1 dev-appear;
+}
+
+.photo-appear {
+  animation: 1s ease-out 0s 1 photo-appear;
+}
+
+@keyframes dev-appear {
+    0% {
+      transform: translateY(230%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes dev-appear {
+    0% {
+      transform: translateY(230%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes dev-appear {
+    0% {
+      transform: translateY(230%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes dev-appear {
+    0% {
+      transform: translateY(230%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Opera < 12.1 */
+  @-o-keyframes dev-appear {
+    0% {
+      transform: translateY(230%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  @keyframes photo-appear {
+    0% {
+      transform: translateY(270%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes photo-appear {
+    0% {
+      transform: translateY(270%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes photo-appear {
+    0% {
+      transform: translateY(270%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes photo-appear {
+    0% {
+      transform: translateY(270%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Opera < 12.1 */
+  @-o-keyframes photo-appear {
+    0% {
+      transform: translateY(270%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }

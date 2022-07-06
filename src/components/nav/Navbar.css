@@ -1,12 +1,18 @@
 .nav {
   position: fixed;
-  bottom: 5%;
-  width: 100%;
+  top: 2%;
+  right: 1%;
+  /* border-radius: 10px; */
+  height: fit-content;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  align-content: space-evenly;
+  align-content: center;
+  /* padding: 1.5rem; */
+  /* border-radius: 25px; */
+  /* background: #c0c0c0;
+  box-shadow: inset 29px 29px 57px #a3a3a3,
+              inset -29px -29px 57px #dddddd; */
 }
 
 .nav .icons {
@@ -15,7 +21,9 @@
 }
 
 .nav h1 {
-  color: white;
-  font-family: 'Inter', sans-serif;
-  font-weight: 200;
+  color: black;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 5vh;
+  /* color: #c0c0c0; */
 }
