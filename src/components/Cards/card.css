@@ -2,30 +2,30 @@
   display: flex;
   flex-direction: row;
   border-radius: 25px;
-  width: 500px;
-  height: 600px;
-  margin: auto;
-  z-index: 10;
+  width: 50%;
+  height: 80%;
+  margin: 10px;
+  /* margin: 10%; */
   padding: 20px;
   box-shadow: 3px 2px 12px -3px rgba(172, 172, 172, 0.5) inset;
--webkit-box-shadow: 3px 2px 12px -3px rgba(0,0,0,0.75) inset;
--moz-box-shadow: 3px 2px 12px -3px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 2px 12px -3px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 3px 2px 12px -3px rgba(0, 0, 0, 0.75) inset;
 }
 
-.card:hover {
-  margin: 0 auto;
-  transition: 1s ease-in-out;
-  z-index: 100;
+.card a {
+  color: black;
 }
 
-.card a { 
+.card h1 {
   color: black;
 }
 
 .projectIcons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  justify-content: flex-start;
+
   width: 100%;
   flex-wrap: wrap;
   margin: 2rem 0;
@@ -57,6 +57,11 @@
   width: 75px;
 }
 
+.card-body {
+  display: flex;
+  align-self: flex-end;
+}
+
 .main .project-buttons {
   height: 15%;
 }
@@ -69,21 +74,27 @@
 .card-title {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  width: 20%;
-  height: 600px;
+  align-content: flex-end;
+  justify-content: flex-start;
+  width: 10%;
+  /* justify-content: space-evenly; */
+  height: 100%;
 }
 
 .card-title img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
+}
+
+.card-title svg {
+  height: 50px;
+  width: 50px;
 }
 
 .card-title h1 {
   height: fit-content;
-  transform: rotate(-90deg);
+  /* transform: rotate(-90deg); */
   white-space: nowrap;
   margin-bottom: 75px;
   font-size: 50px;
@@ -130,4 +141,13 @@
     margin-top: 50px;
     height: 10%;
   }
+}
+
+.radius {
+  border-radius: 25px;
+}
+
+.card-title .radius img {
+  height: 100px;
+  width: 100px;
 }
