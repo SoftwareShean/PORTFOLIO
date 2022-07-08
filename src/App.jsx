@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import { Route } from "react-router-dom";
-import Parallax from "./components/Parallax/Parallax.jsx";
+import Parallax from "./components/Parallax/Parallax";
 import {
   FaEnvelope,
   FaGithub,
