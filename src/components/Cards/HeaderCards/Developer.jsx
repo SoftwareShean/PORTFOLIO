@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Cura from "../ProjectCards/Cura";
-import PassTheSpatula from "../ProjectCards/PassTheSpatula";
+import PassTheSpatula from "../V2/PassTheSpatula";
 import CultCatalogue from "../ProjectCards/CultCatalogue";
 import Covidata from "../ProjectCards/Covidata";
 import Mission from "../ProjectCards/Mission";
@@ -14,7 +14,7 @@ export default function Developer() {
     <div className="developerCard">
       <div className="cardHeader dev-appear">
         <Link to="/">
-          <h1>DEVELOPER</h1>
+          {/* <h1>Developer</h1> */}
         </Link>
       </div>
       <div class="slides fadein">

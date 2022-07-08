@@ -1,0 +1,32 @@
+.pts {
+    .app-icon {
+        background-image: url(../../../../assets/passthespatula.png);
+      }
+    //react
+  .project-icons-1 {
+    position: sticky;
+    transform: translate3d(65vw, -5vh, 0);
+    width: 125px;
+    height: 125px;
+  }
+  //FIREBASE
+  .project-icons-2 {
+    position: sticky;
+    transform: translate3d(32vw, -5vh, 0);
+  }
+  //SHOPIFY
+  .project-icons-3 {
+    position: sticky;
+    transform: translate3d(60vw, -5vh, 0);
+  }
+  //DRAFTJS
+  .project-icons-4 {
+    position: sticky;
+    transform: translate3d(45vw, -5vh, 0);
+  }
+  //SASS
+  .project-icons-5 {
+    position: sticky;
+    transform: translate3d(30vw, -19vh, 0);
+  }
+}

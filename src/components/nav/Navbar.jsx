@@ -15,9 +15,11 @@ import { Link } from "react-router-dom";
 export default function nav() {
   return (
     <div className="nav">
-      <Link to="/">
-        <h1>SHEAN</h1>
-      </Link>
+      <div className="heading">
+        <Link to="/">
+          <h1>SHEAN</h1>
+        </Link>
+      </div>
       <div className="icons">
         <IconContext.Provider
           value={{
@@ -25,16 +27,17 @@ export default function nav() {
               display: "flex",
               flexDirection: "row",
               width: "100%",
-              height: "5vh",
+              height: "3vh",
               fontSize: "35px",
               color: "black",
               paddingLeft: "10px",
               paddingRight: "20px",
+              margin: "0 auto"
             },
           }}
         >
           <a
-            href="https://www.linkedin.com/in/sheanj/"
+            href="https://www.linkedin.com/in/softwareshean/"
             target="_blank"
             rel="noopener noreferrer"
           >
