@@ -1,6 +1,6 @@
 import React from "react";
 import "./Styles/Newcard.scss";
-import "./Styles/PTS.scss";
+import "./Styles/Pts.scss";
 import ReactIcon from "../../../assets/react.png";
 import FirebaseIcon from "../../../assets/FirebaseIcon";
 import ShopifyIcon from "../../../assets/shopify_icon.png";
@@ -12,7 +12,7 @@ import {
   MouseParallaxChild,
 } from "react-parallax-mouse";
 
-export default function PTS() {
+export default function Pts() {
   return (
     <div className="new-card slideup pts">
       <div className="heading">

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Styles/Newcard.scss";
-import "./Styles/CURA.scss";
+import "./Styles/Cura.scss";
 import ReactIcon from "../../../assets/react.png";
 import RailsIcon from "../../../assets/rails.png";
 import RubyIcon from "../../../assets/ruby.png";
@@ -9,7 +9,7 @@ import {
   MouseParallaxChild,
 } from "react-parallax-mouse";
 
-export default function CURA() {
+export default function Cura() {
   return (
     <div className="new-card slideup cura">
       <div className="heading">

@@ -1,15 +1,11 @@
 import React from "react";
 import "./App.scss";
 import { Route } from "react-router-dom";
-import Parallax from "./components/Parallax/Parallax";
+import Parallax from "./components/Parallax/Parallax.jsx";
 import {
   FaEnvelope,
-  FaPhone,
   FaGithub,
   FaLinkedin,
-  FaPaperclip,
-  FaInstagram,
-  FaTwitter,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
