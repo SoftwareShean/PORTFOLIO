@@ -1,19 +1,15 @@
 import React, { useRef } from "react";
 import {
   FaEnvelope,
-  FaPhone,
   FaGithub,
   FaLinkedin,
-  FaPaperclip,
-  FaInstagram,
-  FaTwitter,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import "./Parallax.scss";
-import PTS from "../Cards/ProjectCards/PTS";
-import CC from "../Cards/ProjectCards/CC";
-import CURA from "../Cards/ProjectCards/CURA";
-import COVID from "../Cards/ProjectCards/COVID";
+import PTS from "../Cards/ProjectCards/Pts.jsx";
+import CC from "../Cards/ProjectCards/Cc.jsx";
+import CURA from "../Cards/ProjectCards/Cura.jsx";
+import COVID from "../Cards/ProjectCards/Covid.jsx";
 
 export default function Parallax() {
   const ref = useRef(null);

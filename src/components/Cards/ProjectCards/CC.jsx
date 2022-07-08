@@ -1,6 +1,6 @@
 import React from "react";
 import "./Styles/Newcard.scss";
-import "./Styles/CC.scss";
+import "./Styles/Cc.scss";
 import ReactIcon from "../../../assets/react.png";
 import SassIcon from "../../../assets/Sass.jsx";
 import NodeIcon from "../../../assets/nodejs.png";
@@ -10,7 +10,7 @@ import {
   MouseParallaxChild,
 } from "react-parallax-mouse";
 
-export default function CC() {
+export default function Cc() {
   return (
     <div className="new-card slideup cc">
       <div className="heading">

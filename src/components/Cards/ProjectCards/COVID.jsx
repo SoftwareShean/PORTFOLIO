@@ -1,6 +1,6 @@
 import React from "react";
 import "./Styles/Newcard.scss";
-import "./Styles/COVID.scss";
+import "./Styles/Covid.scss";
 import CSS3 from "../../../assets/css3.png"
 import JS from "../../../assets/javascript.png"
 import HTML5 from "../../../assets/html5.png"
@@ -9,7 +9,7 @@ import {
   MouseParallaxChild,
 } from "react-parallax-mouse";
 
-export default function CURA() {
+export default function Covid() {
   return (
     <div className="new-card slideup covid">
       <div className="heading">
