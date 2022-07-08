@@ -1,22 +1,21 @@
 import React from "react";
 import "./Styles/Newcard.scss";
-import "./Styles/Cc.scss";
-import ReactIcon from "../../../assets/react.png";
-import SassIcon from "../../../assets/Sass.jsx";
-import NodeIcon from "../../../assets/nodejs.png";
-import MongoIcon from "../../../assets/mongodb.png";
+import "./Styles/Cura.scss";
+import ReactIcon from "../../assets/react.png";
+import RailsIcon from "../../assets/rails.png";
+import RubyIcon from "../../assets/ruby.png";
 import {
   MouseParallaxContainer,
   MouseParallaxChild,
 } from "react-parallax-mouse";
 
-export default function Cc() {
+export default function Cura() {
   return (
-    <div className="new-card slideup cc">
+    <div className="new-card slideup cura">
       <div className="heading">
         <div className="project-title">
-          <a href="https://cultcatalogue.netlify.app/">
-            <h1>cultcatalogue</h1>
+          <a href="https://cura-app.netlify.app/">
+            <h1>CURA</h1>
           </a>
           <div className="app-icon"></div>
         </div>
@@ -31,25 +30,21 @@ export default function Cc() {
             </MouseParallaxChild>
             <MouseParallaxChild factorX={0.09} factorY={0.09}>
               <div className="project-icons-2">
-                <SassIcon />
+                <img src={RailsIcon} />
               </div>
             </MouseParallaxChild>
             <MouseParallaxChild factorX={0.09} factorY={0.09}>
               <div className="project-icons-3">
-                <img src={NodeIcon} />
-              </div>
-            </MouseParallaxChild>
-            <MouseParallaxChild factorX={0.09} factorY={0.09}>
-              <div className="project-icons-4">
-                <img src={MongoIcon} />
+                <img src={RubyIcon} />
               </div>
             </MouseParallaxChild>
           </MouseParallaxContainer>
         </div>
         <div className="project-description">
-          Based on a passion project from 2014, CultCatalogue is an API for
-          biographies and works of contemporary global artists. Click the icons
-          below to view the deployed project and its code.
+          CURA is your digital content manager. With a daily timeline, add links
+          with rich data, upload photos, and add notes. Manage each day with
+          CURA and never forget a memory. With API integrations fro the NYT you
+          wont miss any of the latest top stories.
         </div>
       </div>
     </div>

@@ -6,10 +6,10 @@ import {
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import "./Parallax.scss";
-import Pts from "../Cards/ProjectCards/Pts";
-import Cc from "../Cards/ProjectCards/Cc";
-import Cura from "../Cards/ProjectCards/Cura";
-import Covid from "../Cards/ProjectCards/Covid";
+import Pts from "../Cards/Pts";
+import Cc from "../Cards/Cc";
+import Cura from "../Cards/Cura";
+import Covid from "../Cards/Covid";
 
 export default function Parallax() {
   const ref = useRef(null);

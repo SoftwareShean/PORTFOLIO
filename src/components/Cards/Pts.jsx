@@ -1,12 +1,12 @@
 import React from "react";
 import "./Styles/Newcard.scss";
 import "./Styles/Pts.scss";
-import ReactIcon from "../../../assets/react.png";
-import FirebaseIcon from "../../../assets/FirebaseIcon";
-import ShopifyIcon from "../../../assets/shopify_icon.png";
-import DraftJsLogo from "../../../assets/DraftJsLogo";
-import SassIcon from "../../../assets/Sass.jsx";
-import PTSIcon from "../../../assets/passthespatula.png";
+import ReactIcon from "../../assets/react.png";
+import FirebaseIcon from "../../assets/FirebaseIcon";
+import ShopifyIcon from "../../assets/shopify_icon.png";
+import DraftJsLogo from "../../assets/DraftJsLogo";
+import SassIcon from "../../assets/Sass.jsx";
+import PTSIcon from "../../assets/passthespatula.png";
 import {
   MouseParallaxContainer,
   MouseParallaxChild,
