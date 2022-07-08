@@ -1,9 +1,9 @@
 import React from "react";
 import "./Styles/Newcard.scss";
 import "./Styles/Covid.scss";
-import CSS3 from "../../../assets/css3.png"
-import JS from "../../../assets/javascript.png"
-import HTML5 from "../../../assets/html5.png"
+import CSS3 from "../../assets/css3.png"
+import JS from "../../assets/javascript.png"
+import HTML5 from "../../assets/html5.png"
 import {
   MouseParallaxContainer,
   MouseParallaxChild,
