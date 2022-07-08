@@ -8,9 +8,10 @@
 
 .cultcatalogue h1 {
   font-weight: 600;
-  font-size: 4rem;
-  color: white;
-  text-shadow: -6px 6px 15px rgba(0, 0, 0, 0.5), 6px -6px 15px;
+  /* font-size: 4rem; */
+  color: black;
+  /* color: white; */
+  /* text-shadow: -6px 6px 15px rgba(0, 0, 0, 0.5), 6px -6px 15px; */
 }
 
 @media (max-width: 768px) {

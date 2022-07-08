@@ -1,9 +1,9 @@
 import React from "react";
 import "./Styles/Newcard.scss";
-import "./Styles/CURA.scss";
-import ReactIcon from "../../../assets/react.png";
-import RailsIcon from "../../../assets/rails.png";
-import RubyIcon from "../../../assets/ruby.png";
+import "./Styles/COVID.scss";
+import CSS3 from "../../../assets/css3.png"
+import JS from "../../../assets/javascript.png"
+import HTML5 from "../../../assets/html5.png"
 import {
   MouseParallaxContainer,
   MouseParallaxChild,
@@ -11,11 +11,11 @@ import {
 
 export default function CURA() {
   return (
-    <div className="new-card slideup cura">
+    <div className="new-card slideup covid">
       <div className="heading">
         <div className="project-title">
           <a href="https://cura-app.netlify.app/">
-            <h1>CURA</h1>
+            <h1>COVIData</h1>
           </a>
           <div className="app-icon"></div>
         </div>
@@ -25,26 +25,23 @@ export default function CURA() {
           <MouseParallaxContainer>
             <MouseParallaxChild factorX={0.09} factorY={0.09}>
               <div className="project-icons-1">
-                <img src={ReactIcon} />
+                <img src={CSS3} />
               </div>
             </MouseParallaxChild>
             <MouseParallaxChild factorX={0.09} factorY={0.09}>
               <div className="project-icons-2">
-                <img src={RailsIcon} />
+                <img src={JS} />
               </div>
             </MouseParallaxChild>
             <MouseParallaxChild factorX={0.09} factorY={0.09}>
               <div className="project-icons-3">
-                <img src={RubyIcon} />
+                <img src={HTML5} />
               </div>
             </MouseParallaxChild>
           </MouseParallaxContainer>
         </div>
         <div className="project-description">
-          CURA is your digital content manager. With a daily timeline, add links
-          with rich data, upload photos, and add notes. Manage each day with
-          CURA and never forget a memory. With API integrations fro the NYT you
-          wont miss any of the latest top stories.
+        CoviData was built at the beginning of the Covid-19 global pandemic as a means of tracking the latest news as well as infection rates and death tolls with data provided from The Covid Tracking Project. Disperate APIs were interpreted to provide unique data visualizations by State.
         </div>
       </div>
     </div>

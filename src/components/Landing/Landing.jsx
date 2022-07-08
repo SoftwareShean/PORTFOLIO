@@ -22,11 +22,11 @@ export default function Landing() {
         {/* <div className="amper">
         <h1>&</h1>
         </div> */}
-        <Link to="/photographer">
+        {/* <Link to="/photographer">
           <div className="photo">
             <h1>& PHOTOGRAPHER</h1>
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

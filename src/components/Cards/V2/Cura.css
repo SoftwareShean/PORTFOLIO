@@ -4,9 +4,10 @@
 
 .cura h1 {
   font-weight: 600;
-  font-size: 4rem;
-  color: rgb(216, 224, 224);
-  text-shadow: -6px 6px 15px rgba(0, 0, 0, 0.5), 6px -6px 15px;
+  /* font-size: 4rem; */
+  color: black;
+  /* color: rgb(216, 224, 224); */
+  /* text-shadow: -6px 6px 15px rgba(0, 0, 0, 0.5), 6px -6px 15px; */
 }
 
 .cura p {
