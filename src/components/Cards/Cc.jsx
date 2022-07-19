@@ -9,12 +9,18 @@ import {
   MouseParallaxContainer,
   MouseParallaxChild,
 } from "react-parallax-mouse";
+import { useInView } from "react-intersection-observer";
+import styles from "../../App.module.scss";
+import { Parallax } from "react-scroll-parallax";
 
 export default function Cc() {
+  const { ref: headerRef, inView: headerVisible } = useInView();
+  const { ref: iconRef, inView: iconVisible } = useInView();
+
   return (
     <div className="new-card slideup cc">
       <div className="heading">
-        <div className="project-title">
+        <div className="project-title" ref={headerRef}>
           <a href="https://cultcatalogue.netlify.app/">
             <h1>cultcatalogue</h1>
           </a>
@@ -23,33 +29,38 @@ export default function Cc() {
       </div>
       <div className="card-body">
         <div className="project-icons">
-          <MouseParallaxContainer>
-            <MouseParallaxChild factorX={0.09} factorY={0.09}>
-              <div className="project-icons-1">
-                <img src={ReactIcon} />
-              </div>
-            </MouseParallaxChild>
-            <MouseParallaxChild factorX={0.09} factorY={0.09}>
-              <div className="project-icons-2">
-                <SassIcon />
-              </div>
-            </MouseParallaxChild>
-            <MouseParallaxChild factorX={0.09} factorY={0.09}>
-              <div className="project-icons-3">
-                <img src={NodeIcon} />
-              </div>
-            </MouseParallaxChild>
-            <MouseParallaxChild factorX={0.09} factorY={0.09}>
-              <div className="project-icons-4">
-                <img src={MongoIcon} />
-              </div>
-            </MouseParallaxChild>
-          </MouseParallaxContainer>
+          <div className="project-icons-1" ref={iconRef}>
+            <Parallax speed={-5}>
+              <img src={ReactIcon} />
+            </Parallax>
+          </div>
+          <div className="project-icons-2" ref={iconRef}>
+            <Parallax speed={-5}>
+              <SassIcon />
+            </Parallax>
+          </div>
+
+          <div className="project-icons-3" ref={iconRef}>
+            <Parallax speed={-5}>
+              <img src={NodeIcon} />
+            </Parallax>
+          </div>
+
+          <div className="project-icons-4" ref={iconRef}>
+            <Parallax speed={-5}>
+              <img src={MongoIcon} />
+            </Parallax>
+          </div>
         </div>
         <div className="project-description">
           Based on a passion project from 2014, CultCatalogue is an API for
-          biographies and works of contemporary global artists. Click the icons
-          below to view the deployed project and its code.
+          biographies and works of contemporary global artists.
+          <br />
+          <br />
+          Inspired by the book This Will Have Been: Art, Love, and Politics in
+          the 1980's, CultCatalogue aims to provide a free and open API for art
+          lovers and aficionados alike. Click the title above to view the
+          projects documentation.
         </div>
       </div>
     </div>

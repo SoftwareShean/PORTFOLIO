@@ -8,37 +8,44 @@ import {
   MouseParallaxContainer,
   MouseParallaxChild,
 } from "react-parallax-mouse";
+import { useInView } from "react-intersection-observer";
+import styles from "../../App.module.scss";
+import transitions from "./Styles/pts.module.scss";
+import { Parallax } from "react-scroll-parallax";
 
 export default function Cura() {
+  const { ref: headerRef, inView: headerVisible } = useInView();
+  const { ref: iconRef, inView: iconVisible } = useInView();
+
   return (
     <div className="new-card slideup cura">
       <div className="heading">
-        <div className="project-title">
+        <div className="project-title" ref={headerRef}>
           <a href="https://cura-app.netlify.app/">
-            <h1>CURA</h1>
+              <h1>CURA</h1>
           </a>
           <div className="app-icon"></div>
         </div>
       </div>
       <div className="card-body">
         <div className="project-icons">
-          <MouseParallaxContainer>
-            <MouseParallaxChild factorX={0.09} factorY={0.09}>
-              <div className="project-icons-1">
-                <img src={ReactIcon} />
-              </div>
-            </MouseParallaxChild>
-            <MouseParallaxChild factorX={0.09} factorY={0.09}>
-              <div className="project-icons-2">
-                <img src={RailsIcon} />
-              </div>
-            </MouseParallaxChild>
-            <MouseParallaxChild factorX={0.09} factorY={0.09}>
-              <div className="project-icons-3">
-                <img src={RubyIcon} />
-              </div>
-            </MouseParallaxChild>
-          </MouseParallaxContainer>
+          <div className="project-icons-1" ref={iconRef}>
+            <Parallax speed={-5}>
+              <img src={ReactIcon} />
+            </Parallax>
+          </div>
+
+          <div className="project-icons-2" ref={iconRef}>
+            <Parallax speed={-5}>
+              <img src={RailsIcon} />
+            </Parallax>
+          </div>
+
+          <div className="project-icons-3" ref={iconRef}>
+            <Parallax speed={-5}>
+              <img src={RubyIcon} />
+            </Parallax>
+          </div>
         </div>
         <div className="project-description">
           CURA is your digital content manager. With a daily timeline, add links

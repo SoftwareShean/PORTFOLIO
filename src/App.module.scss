@@ -1,0 +1,42 @@
+@import "./styles/fonts.scss";
+@import "./styles/colors.scss";
+
+.landingHeading {
+  display: inline-block;
+}
+
+.animateLandingHeading {
+  animation-duration: 1s;
+  animation-name: animate-landing-heading;
+}
+
+@keyframes animate-landing-heading {
+  from {
+    opacity: 0;
+    transform: translateY(-50vh);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cardHeader {
+  display: inline-block;
+}
+
+.animateCardHeader {
+  animation-duration: 1.5s;
+  animation-name: animate-card-heading;
+}
+
+@keyframes animate-card-heading {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

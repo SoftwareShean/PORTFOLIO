@@ -1,19 +1,74 @@
+@import "./styles/fonts.scss";
+@import "./styles/colors.scss";
+
 .App {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-color: #E2E2E2;
-  font-family: 'IBM Plex Sans', sans-serif;
+  overflow: scroll;
+  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .landing,
+  .pts,
+  .cc,
+  .cura,
+  .covid,
+  .mission {
+    height: 100vh;
+    width: 100vw;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing {
+    display: flex;
+    flex-direction: column;
+    height: 101vh;
+    width: 100%;
+    letter-spacing: 4px;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      margin: 0;
+      font-size: 8vw;
+      font-weight: 600;
+    }
+    h2 {
+      margin: 0;
+      font-size: 5vw;
+      font-weight: 100;
+      font-style: italic;
+    }
+    button {
+      background-color: black;
+      color: white;
+      border: none;
+      height: 7vh;
+      width: 15vw;
+      border-radius: 15px;
+      position: relative;
+      bottom: -10rem;
+      left: 0.5rem;
+      font-size: 2vw;
+      font-weight: 100;
+      font-family: PangramBook;
+    }
+  }
   h1 {
     color: inherit;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 600;
+    font-family: PangramBook;
+    // font-weight: 400;
     margin: 0;
   }
+
   p {
     color: inherit;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: PangramMedium;
   }
+
   a {
     text-decoration: none;
   }
@@ -27,11 +82,27 @@
     justify-content: center;
     padding-bottom: 1rem;
   }
+  .mission {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    // justify-content: center;
+    text-align: justify;
+    background-color: black;
+    h1 {
+      padding: 0rem 2rem;
+      font-size: 4vw;
+      font-family: PangramBold;
+      text-transform: uppercase;
+      background-image: url(./assets/aesthetic-background.gif);
+      background-size: cover;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: justify;
+    }
+  }
 }
-
-
-
-
 
 @media (max-width: 768px) {
   .App {
