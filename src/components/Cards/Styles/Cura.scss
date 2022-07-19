@@ -1,25 +1,21 @@
 .cura {
+      background-color: rgb(216, 224, 224);
     .app-icon {
         background-image: url(../../../assets/CuraLogo.png);
     }
       //react
   .project-icons-1 {
-    position: sticky;
-    transform: translate3d(35vw, -5vh, 0);
+    position: absolute;
+    transform: translate(5vw, 15vh);
   }
-  //SASS
+  //RAILS
   .project-icons-2 {
-    position: sticky;
-    transform: translate3d(65vw, -5vh, 0);
+    position: absolute;
+    transform: translate(-30vw, -5vh);
   }
-  //NODE
+  //RUBY
   .project-icons-3 {
-    position: sticky;
-    transform: translate3d(30vw, -5vh, 0);
-  }
-  //MONGO
-  .project-icons-4 {
-    position: sticky;
-    transform: translate3d(60vw, -5vh, 0);
+    position: absolute;
+    transform: translate(10vw, -25vh);
   }
 }

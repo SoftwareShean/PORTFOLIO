@@ -1,25 +1,21 @@
 .covid {
-    .app-icon {
-        background-image: url(../../../assets/Covid.png);
-    }
-      //react
+  background-color: rgb(192, 208, 207);
+  .app-icon {
+    background-image: url(../../../assets/Covid.png);
+  }
+  //CSS
   .project-icons-1 {
-    position: sticky;
-    transform: translate3d(35vw, -5vh, 0);
+    position: absolute;
+    transform: translate(15vw, -20vh);
   }
-  //SASS
+  //JS
   .project-icons-2 {
-    position: sticky;
-    transform: translate3d(65vw, -5vh, 0);
+    position: absolute;
+    transform: translate(-30vw, -5vh);
   }
-  //NODE
+  //HTML5
   .project-icons-3 {
-    position: sticky;
-    transform: translate3d(30vw, -5vh, 0);
-  }
-  //MONGO
-  .project-icons-4 {
-    position: sticky;
-    transform: translate3d(60vw, -5vh, 0);
+    position: absolute;
+    transform: translate(5vw, 15vh);
   }
 }

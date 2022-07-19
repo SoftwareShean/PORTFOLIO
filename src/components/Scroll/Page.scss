@@ -1,0 +1,253 @@
+// .container {
+//   height: 100vh;
+//   overflow: scroll;
+//   // overflow-x: hidden; 
+//   .landing {
+//     height: 100vh;
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     h1 {
+//       margin: 0;
+//       font-size: 8vw;
+//       font-weight: 600;
+//     }
+//     h2 {
+//       margin: 0;
+//       font-size: 5vw;
+//       font-weight: 100;
+//       font-style: italic;
+//     }
+//     button {
+//       background-color: black;
+//       color: white;
+//       border: none;
+//       // height: 7vh;
+//       width: 15vw;
+//       border-radius: 15px;
+//       position: relative;
+//       bottom: -10rem;
+//       left: 0.5rem;
+//       font-size: 2vw;
+//       font-weight: 100;
+//       font-family: PangramBook;
+//     }
+//   }
+//   .pts {
+//     height: 100vh;
+//     background-color: rgb(255, 175, 4);
+//     .app-icon {
+//       background-image: url(../../assets/passthespatula.png);
+//     }
+//     //react
+//     .project-icons-1 {
+//       position: sticky;
+//       transform: translate3d(60vw, 5vh, 0);
+//       width: 125px;
+//       height: 125px;
+//     }
+//     //FIREBASE
+//     .project-icons-2 {
+//       position: sticky;
+//       transform: translate3d(32vw, -5vh, 0);
+//     }
+//     //SHOPIFY
+//     .project-icons-3 {
+//       position: sticky;
+//       transform: translate3d(60vw, -5vh, 0);
+//     }
+//     //DRAFTJS
+//     .project-icons-4 {
+//       position: sticky;
+//       transform: translate3d(45vw, 0vh, 0);
+//     }
+//     //SASS
+//     .project-icons-5 {
+//       position: sticky;
+//       transform: translate3d(30vw, -19vh, 0);
+//     }
+//   }
+//   .cc {
+//     height: 100vh;
+//     background-color: white;
+//     .app-icon {
+//       background-image: url(../../assets/cultcatalogueIcon.png);
+//     }
+//     //react
+//     .project-icons-1 {
+//       position: sticky;
+//       transform: translate3d(35vw, 4vh, 0);
+//     }
+//     //SASS
+//     .project-icons-2 {
+//       position: sticky;
+//       transform: translate3d(65vw, -5vh, 0);
+//     }
+//     //NODE
+//     .project-icons-3 {
+//       position: sticky;
+//       transform: translate3d(30vw, -5vh, 0);
+//     }
+//     //MONGO
+//     .project-icons-4 {
+//       position: sticky;
+//       transform: translate3d(60vw, -10vh, 0);
+//     }
+//   }
+//   .cura {
+//     height: 100vh;
+//     background-color: rgb(216, 224, 224);
+//     .app-icon {
+//       background-image: url(../../assets/CuraLogo.png);
+//     }
+//     //react
+//     .project-icons-1 {
+//       position: sticky;
+//       transform: translate3d(35vw, -5vh, 0);
+//     }
+//     //SASS
+//     .project-icons-2 {
+//       position: sticky;
+//       transform: translate3d(65vw, -5vh, 0);
+//     }
+//     //NODE
+//     .project-icons-3 {
+//       position: sticky;
+//       transform: translate3d(30vw, -5vh, 0);
+//     }
+//     //MONGO
+//     .project-icons-4 {
+//       position: sticky;
+//       transform: translate3d(60vw, -5vh, 0);
+//     }
+//   }
+//   .covid {
+//     height: 100vh;
+//     background-color: rgb(192, 208, 207);
+//     .app-icon {
+//       background-image: url(../../assets/Covid.png);
+//     }
+//     //react
+//     .project-icons-1 {
+//       position: sticky;
+//       transform: translate3d(35vw, -5vh, 0);
+//     }
+//     //SASS
+//     .project-icons-2 {
+//       position: sticky;
+//       transform: translate3d(65vw, -5vh, 0);
+//     }
+//     //NODE
+//     .project-icons-3 {
+//       position: sticky;
+//       transform: translate3d(30vw, -5vh, 0);
+//     }
+//     //MONGO
+//     .project-icons-4 {
+//       position: sticky;
+//       transform: translate3d(60vw, -5vh, 0);
+//     }
+//   }
+//   .mission {
+//     height: 100vh;
+//     display: flex;
+//     width: 100%;
+//     height: 100%;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: black;
+//     h2 {
+//       padding: 0rem 2rem;
+//       font-size: 4vw;
+//       font-family: PangramBold;
+//       text-transform: uppercase;
+//       background-image: url(../../assets/background.png);
+//       background-size: cover;
+//       -webkit-background-clip: text;
+//       -webkit-text-fill-color: transparent;
+//       text-align: justify;
+//     }
+//   }
+// }
+
+// //CARD LAYOUT STYLING
+
+// .new-card {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   width: 100%;
+//   height: fit-content;
+//   a {
+//     text-decoration: none;
+//     color: inherit;
+//   }
+//   a:hover {
+//     text-decoration: underline;
+//   }
+//   .heading {
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+//     margin-top: 1rem;
+//     .app-icon {
+//       height: 75px;
+//       width: 75px;
+//       background-position: center;
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       border-radius: 25rem;
+//       margin-top: 1rem;
+//     }
+//     .project-title {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       width: 100%;
+//     }
+//     .project-title h1 {
+//       font-family: PangramBook;
+//     }
+//   }
+//   .card-body {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     height: fit-content;
+//     position: relative;
+//     .project-icons {
+//       width: 100%;
+//       height: 80vh;
+//       position: relative;
+//       top: 0;
+//       left: 0;
+//     }
+//     .project-icons svg {
+//       width: 125px;
+//       height: 125px;
+//     }
+//     .project-icons img {
+//       width: 125px;
+//       height: 125px;
+//     }
+//     .project-description {
+//       position: relative;
+//       transform: translate3d(0rem, -35rem, 0rem);
+//       width: 25% !important;
+//       display: flex;
+//       align-self: center;
+//       z-index: 2;
+//       font-weight: 500;
+//     }
+//     .project-description p {
+//       font-family: PangramBook;
+//     }
+//   }
+// }
+
+// #mouse-parallax-container {
+//   overflow: visible !important;
+// }
