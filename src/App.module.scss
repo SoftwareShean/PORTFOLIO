@@ -40,3 +40,21 @@
     opacity: 1;
   }
 }
+
+.cardPop {
+  display: inline-block;
+}
+
+.animateCardPop {
+  animation-duration: 1s;
+  animation-name: animate-card-pop;
+}
+
+@keyframes animate-card-pop {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
+}

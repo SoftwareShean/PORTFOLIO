@@ -1,0 +1,88 @@
+@import "../../../styles/fonts.scss";
+
+.cura-new {
+  position: absolute;
+  top: 255vh;
+  left: 10vw;
+  height: fit-content;
+  width: 40vw;
+  height: 80vh;
+  background-color: rgb(216, 224, 224);
+  border-radius: 5rem;
+  border-radius: 50px;
+background: #D8E0E0;
+box-shadow: inset 8px 8px 11px #c2caca,
+            inset -8px -8px 11px #eef6f6;
+  .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    h1 {
+      margin-top: 1rem;
+      font-family: PangramBold;
+      font-size: 2rem;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .app-icon {
+    height: 75px;
+    width: 75px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25rem;
+    margin-top: 1rem;
+  }
+  .card-body {
+    .project-icons {
+      position: absolute;
+      left: 50%;
+    }
+    .project-icons svg {
+      width: 125px;
+      height: 125px;
+    }
+    .project-icons img {
+      width: 125px;
+      height: 125px;
+    }
+    //REACT
+    .project-icons-1 {
+      position: absolute;
+      transform: translate(15vw, -20vh);
+    }
+    //FIREBASE
+    .project-icons-2 {
+      position: absolute;
+      transform: translate(-25vw, -10vh);
+    }
+    //SHOPIFY
+    .project-icons-3 {
+      position: absolute;
+      transform: translate(15vw, 45vh);
+    }
+    //DRAFTJS
+    .project-icons-4 {
+      position: absolute;
+      transform: translate(-22vw, 30vh);
+    }
+    //SASS
+    .project-icons-5 {
+      position: absolute;
+      transform: translate(10vw, 20vh);
+    }
+    .project-description {
+      position: relative;
+      width: 50%;
+      margin: 0 auto;
+      p {
+        font-size: 1.5vw;
+        font-family: PangramBook;
+      }
+    }
+  }
+}

@@ -1,13 +1,22 @@
 @import "./styles/fonts.scss";
 @import "./styles/colors.scss";
 
+body {
+  background-color: $background-color;
+}
+
 .App {
   overflow: scroll;
-  background-color: $background-color;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  .options {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
   .landing,
   .pts,
   .cc,
@@ -82,25 +91,18 @@
     justify-content: center;
     padding-bottom: 1rem;
   }
-  .mission {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    // justify-content: center;
-    text-align: justify;
-    background-color: black;
-    h1 {
-      padding: 0rem 2rem;
-      font-size: 4vw;
-      font-family: PangramBold;
-      text-transform: uppercase;
-      background-image: url(./assets/aesthetic-background.gif);
-      background-size: cover;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-align: justify;
-    }
+}
+
+.bottom-margin {
+  height: 515vh;
+  padding-bottom: 5rem;
+  .landing {
+    position: absolute;
+    top: 0;
+  }
+  .scroll {
+    position: absolute;
+    top: 100vh;
   }
 }
 
