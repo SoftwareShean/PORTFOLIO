@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/Cult.scss";
+import "./styles/Card.scss";
 import ReactIcon from "../../assets/react.png";
 import SassIcon from "../../assets/Sass.jsx";
 import NodeIcon from "../../assets/nodejs.png";
@@ -9,7 +10,7 @@ import { Parallax } from "react-scroll-parallax";
 
 export default function Cult() {
   return (
-    <div className="cult">
+    <div className="cult card">
       <div className="heading">
         <div className="project-title">
           <a href="https://cultcatalogue.netlify.app/">
@@ -22,7 +23,7 @@ export default function Cult() {
         <div className="project-icons">
           <div className="project-icons-1">
             <Parallax speed={-5}>
-              <img src={ReactIcon} />
+              <img src={ReactIcon} alt="react icon"/>
             </Parallax>
           </div>
           <div className="project-icons-2">
@@ -33,13 +34,13 @@ export default function Cult() {
 
           <div className="project-icons-3">
             <Parallax speed={-5}>
-              <img src={NodeIcon} />
+              <img src={NodeIcon} alt="node icon"/>
             </Parallax>
           </div>
 
           <div className="project-icons-4">
             <Parallax speed={-5}>
-              <img src={MongoIcon} />
+              <img src={MongoIcon} alt="mongo icon"/>
             </Parallax>
           </div>
         </div>

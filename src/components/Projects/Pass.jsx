@@ -1,20 +1,19 @@
 import React from "react";
 import "./styles/Pass.scss";
+import "./styles/Card.scss";
 import { Parallax } from "react-scroll-parallax";
 import ReactIcon from "../../assets/react.png";
 import FirebaseIcon from "../../assets/FirebaseIcon";
 import ShopifyIcon from "../../assets/shopify_icon.png";
 import DraftJsLogo from "../../assets/DraftJsLogo";
 import SassIcon from "../../assets/Sass.jsx";
-import PTSIcon from "../../assets/passthespatula.png";
-import styles from "../../App.module.scss";
 
 export default function Pass() {
   return (
-      <div className="pass">
+      <div className="pass card">
         <div className="heading">
           <div className="project-title">
-            <a href="https://www.passthespatula.com" target="_blank">
+            <a href="https://www.passthespatula.com" rel="noopener noreferrer" target="_blank">
               <h1>www.passthespatula.com</h1>
             </a>
             <div className="app-icon"></div>
@@ -24,7 +23,7 @@ export default function Pass() {
           <div className="project-icons">
             <div className="project-icons-1">
               <Parallax speed={-5}>
-                <img src={ReactIcon} />
+                <img src={ReactIcon} alt="react icon"/>
               </Parallax>
             </div>
             <div className="project-icons-2">
@@ -34,7 +33,7 @@ export default function Pass() {
             </div>
             <div className="project-icons-3">
               <Parallax speed={-5}>
-                <img src={ShopifyIcon} />
+                <img src={ShopifyIcon} alt="shopify icon"/>
               </Parallax>
             </div>
             <div className="project-icons-4">

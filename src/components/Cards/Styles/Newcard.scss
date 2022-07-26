@@ -1,85 +1,85 @@
-.new-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: fit-content;
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  .heading {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 1rem;
-    .app-icon {
-      height: 75px;
-      width: 75px;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-radius: 25rem;
-      margin-top: 1rem;
-    }
-    .project-title {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
-    .project-title h1 {
-      font-family: PangramBook;
-    }
-  }
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    position: relative;
-    .project-description {
-      position: absolute;
-      height: fit-content;
-      width: 40vh;
-      align-self: center;
-      z-index: 2;
-      font-weight: 600;
-      line-height: 1.75rem;
-      margin: 0 auto;
-    }
-    .project-icons {
-      width: fit-content;
-      height: fit-content;
-      position: absolute;
-      // top: 50vh;
-      // left: 50vw;
-      // transform: (50%, -50%);
-      // transform-origin: (25%, 25%);
-    }
-    .project-icons svg {
-      width: 125px;
-      height: 125px;
-    }
-    .project-icons img {
-      width: 125px;
-      height: 125px;
-    }
-    .project-description p {
-      font-family: PangramBook;
-    }
-  }
-}
+// .new-card {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   width: 100%;
+//   height: fit-content;
+//   a {
+//     text-decoration: none;
+//     color: inherit;
+//   }
+//   a:hover {
+//     text-decoration: underline;
+//   }
+//   .heading {
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+//     margin-top: 1rem;
+//     .app-icon {
+//       height: 75px;
+//       width: 75px;
+//       background-position: center;
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       border-radius: 25rem;
+//       margin-top: 1rem;
+//     }
+//     .project-title {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       width: 100%;
+//     }
+//     .project-title h1 {
+//       font-family: PangramBook;
+//     }
+//   }
+//   .card-body {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     height: 100%;
+//     position: relative;
+//     .project-description {
+//       position: absolute;
+//       height: fit-content;
+//       width: 40vh;
+//       align-self: center;
+//       z-index: 2;
+//       font-weight: 600;
+//       line-height: 1.75rem;
+//       margin: 0 auto;
+//     }
+//     .project-icons {
+//       width: fit-content;
+//       height: fit-content;
+//       position: absolute;
+//       // top: 50vh;
+//       // left: 50vw;
+//       // transform: (50%, -50%);
+//       // transform-origin: (25%, 25%);
+//     }
+//     .project-icons svg {
+//       width: 125px;
+//       height: 125px;
+//     }
+//     .project-icons img {
+//       width: 125px;
+//       height: 125px;
+//     }
+//     .project-description p {
+//       font-family: PangramBook;
+//     }
+//   }
+// }
 
-#mouse-parallax-container {
-  overflow: visible !important;
-}
+// #mouse-parallax-container {
+//   overflow: visible !important;
+// }
 
-//size
-//color
-//text
-//alignment
+// //size
+// //color
+// //text
+// //alignment
