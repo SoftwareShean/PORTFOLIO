@@ -28,13 +28,14 @@
     color: inherit;
   }
   .app-icon {
-    height: 75px;
-    width: 75px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 25rem;
-    margin-top: 1rem;
+    // height: 75px;
+    // width: 75px;
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // border-radius: 25rem;
+    // margin-top: 1rem;
+    background-image: url(../../../assets/cultcatalogueIcon.png);
   }
   .card-body {
     .project-icons {
@@ -81,6 +82,57 @@
       p {
         font-size: 1.5vw;
         font-family: PangramBook;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .cult {
+    top: 185vh;
+    left: 5vw;
+    width: 90vw !important;
+    .app-icon {
+      background-image: url(../../../assets/cultcatalogueIcon.png);
+    }
+    .card-body {
+      .project-icons svg {
+        width: 50px;
+        height: 50px;
+      }
+      .project-icons img {
+        width: 50px;
+        height: 50px;
+      }
+      //REACT
+      .project-icons-1 {
+        position: absolute;
+        transform: translate(35vw, -20vh);
+      }
+      //SASS
+      .project-icons-2 {
+        position: absolute;
+        transform: translate(-45vw, -10vh);
+      }
+      //NODE
+      .project-icons-3 {
+        position: absolute;
+        transform: translate(35vw, 45vh);
+      }
+      //MONGO
+      .project-icons-4 {
+        position: absolute;
+        transform: translate(-45vw, 30vh);
+      }
+      .project-description {
+        position: relative;
+        width: 60%;
+        margin: 0 auto;
+        p {
+          font-size: 4.5vw;
+          font-family: PangramBook;
+          text-align: justify;
+        }
       }
     }
   }

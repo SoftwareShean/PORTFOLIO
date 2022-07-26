@@ -1,18 +1,18 @@
-.project-icons-1 {
-    display: inline-block;
-    position: absolute;
-}
+// .project-icons-1 {
+//     display: inline-block;
+//     position: absolute;
+// }
 
-.iconTransition {
-    animation-duration: 5s;
-    animation-name: react-transition;
-}
+// .iconTransition {
+//     animation-duration: 5s;
+//     animation-name: react-transition;
+// }
 
-@keyframes react-transition {
-    from { 
-        transform: scale(0);
-    }
-    to {
-        transform: scale(1) translate(40vh, 10vw);
-    }
-}
+// @keyframes react-transition {
+//     from { 
+//         transform: scale(0);
+//     }
+//     to {
+//         transform: scale(1) translate(40vh, 10vw);
+//     }
+// }
