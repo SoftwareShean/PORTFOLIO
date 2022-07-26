@@ -11,7 +11,7 @@ export default function CovidNew() {
     <div className="covid-new card">
       <div className="heading">
         <div className="project-title">
-          <a href="https://cura-app.netlify.app/">
+          <a href="https://covidata19.netlify.app/" target="_blank" rel="noopener noreferrer">
             <span>
               <h1>COVIData</h1>
             </span>

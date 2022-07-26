@@ -12,7 +12,7 @@ export default function CuraNew() {
     <div className="cura-new card">
       <div className="heading">
         <div className="project-title" >
-          <a href="https://cura-app.netlify.app/">
+          <a href="https://cura-app.netlify.app/" target="_blank" rel="noopener noreferrer">
             <h1>CURA</h1>
           </a>
           <div className="app-icon" alt="cura icon"></div>

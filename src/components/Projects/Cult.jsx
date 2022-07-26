@@ -13,7 +13,7 @@ export default function Cult() {
     <div className="cult card">
       <div className="heading">
         <div className="project-title">
-          <a href="https://cultcatalogue.netlify.app/">
+          <a href="https://cultcatalogue.netlify.app/" target="_blank" rel="noopener noreferrer">
             <h1>cultcatalogue</h1>
           </a>
           <div className="app-icon"></div>
